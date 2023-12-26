@@ -1,0 +1,14 @@
+#button_darkMode{
+    color: #ffffff;
+    background-color: #000411;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+}
+
+#button_darkMode:hover {
+    color: #bdbec2;
+    background-color: #070707;
+}

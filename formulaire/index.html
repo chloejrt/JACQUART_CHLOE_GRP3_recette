@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style_menuBurger.css">
+    <link rel="stylesheet" href="../css/dark_mode.css">
+</head>
+<body id="body">
+    <div class="burger-menu">
+        <!--Conteneur du menu burger-->
+        <div class="burger-icon" id="burger-icon">
+            <!--Icone du menu burger-->
+            <div class="barre"></div><!-- pour dessiner le menu burger-->
+            <div class="barre"></div>
+            <div class="barre"></div>
+        </div>
+        <button id="button_darkMode">Mode sombre</button>
+<!-- Menu de navigation-->
+        <ul class="menu" id="menu">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../contacts/index.html">Contacts</a></li>
+            <li><a href="../formulaire/index.html">Connexion</a></li>
+        </ul>
+    </div>
+    <h1>Connectes toi !!</h1>
+    <form action="">
+        <label for="email">Mail</label><br>
+        <input type="text" id="email"><br>
+        <label for="password">Mot de passe</label><br>
+        <input type="password" id="password"><br>
+        <div id="mdpError"></div>
+        <button id="bouton" onclick="login()">Se connecter</button>
+    </form>
+    <script src="script.js"></script>
+    <script src="../scriptMenu.js"></script>
+    <script src="../darkMode.js"></script>
+</body>
+</html>

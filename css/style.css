@@ -1,0 +1,258 @@
+body{
+    background-color:antiquewhite;
+}
+
+#button_recette{
+    color: #ffffff;
+    background-color: #bdbec2;
+    font-size: 19px;
+    border-radius: 30px;
+    padding: 15px 50px;
+    cursor: pointer;
+    display: block;
+    margin: 30px;
+}
+
+#button_recette:hover {
+    color: #bdbec2;
+    background-color: #ffffff;
+}
+
+
+.menu_image {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.carousel{
+    margin: 1%;
+    width: 30vw;;
+    border-radius: 20%;
+}
+
+/*.img2{
+    margin: 1%;
+    width: 22vw;
+    height: 60vh;
+    border-radius: 15%;
+}
+
+.img3{
+    margin: 1%;
+    width: 22svw;
+    height: 60vh;
+    border-radius: 15%;
+}
+*/
+
+*{
+    margin: 0;
+}
+
+.D{
+    display: flex;
+    /*align-items: center;*/
+}
+
+.recettes{
+    width: 30vw;
+    height: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+a{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.menuGauche{
+    width:30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+
+
+
+footer{
+    width: 100vw;
+    height: 7vh;
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.titre{
+    background-color: burlywood;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.blocImg{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px;
+}
+
+.D1{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+
+@media screen and (max-width: 1024px){
+    
+    .img1{
+        margin: 1%;
+        width: 40vw;
+        height: 30vh;
+    }
+    
+    .img2{
+        margin: 1%;
+        width: 40vw;
+        height: 30vh;
+    }
+    
+    .img3{
+        margin: 1%;
+        width: 40svw;
+        height: 30vh;
+    }
+
+    .titre{
+        width: 100vw;
+        height: 20vh;
+        font-size: 130%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menuGauche{
+        width:50vw;
+        height:110vh;
+        font-size: 90%;
+    }
+    footer{
+        width: 100vw;
+        height: 30vh;
+        background-color: burlywood;
+        font-size: 120%;
+        display: flex;
+        justify-content: flex-start ;
+    }
+    .recettes{
+        width: 30vw;
+        height: 10vh;
+        font-size: 90%;
+    }
+    .contact{
+        width: 70vw;
+        height: 50vh;
+    }
+    
+    p{
+    width: 43%;
+    height: 10vh;
+    font-size: 50%;
+    }
+
+    .D{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .blocImg{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media all and (max-device-width: 600px)
+{
+    .img1{
+        margin: 1%;
+        width: 50vw;
+        height: 40vh;
+    }
+    
+    .img2{
+        margin: 1%;
+        width: 50vw;
+        height: 40vh;
+    }
+    
+    .img3{
+        margin: 1%;
+        width: 50svw;
+        height: 40vh;
+    }
+
+    .titre{
+        width: 100%;
+        height: 15vh;
+        font-size: 160%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menuGauche{
+        width:30vw;
+        height:100%;
+        font-size: 90%;
+    }
+    footer{
+        width: 100vw;
+        height: 15vh;
+        background-color: burlywood;
+        font-size: 190%;
+        display: flex;
+        justify-content: flex-start ;
+    }
+    .recettes{
+        width: 30vw;
+        height: 10vh;
+        font-size: 130%;
+    }
+    .contact{
+        width: 70vw;
+        height: 50vh;
+    }
+    
+    p{
+        width: 43%;
+        height: 10vh;
+        font-size: 50%;
+    }
+
+    .D1{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .D1, a {
+        margin: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .blocImg{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+

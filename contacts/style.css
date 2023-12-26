@@ -1,0 +1,21 @@
+.contacts img{
+    width: 150px;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.contacts{
+    text-align: center;
+}
+
+.details{
+    text-align: center;
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

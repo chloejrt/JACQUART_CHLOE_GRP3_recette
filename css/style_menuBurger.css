@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+/*Styles pour le conteneur du menu burger*/
+
+.burger-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px; /* marge interieur de l'élément*/
+    background-color: rgb(214, 168, 108);
+}
+
+/*Styles pour l'icone du menu burger */
+.burger-icon{
+    cursor: pointer;/* changement de cursor sur la class*/
+}
+
+.barre {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/*Style pour le menu de navigation*/
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.menu li {
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu.active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70.8px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(214, 168, 108);
+}

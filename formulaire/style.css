@@ -1,0 +1,30 @@
+
+form input{
+    margin-bottom: 30px;
+    width: 25%;
+    height:30px ;
+    border-radius: 15px;
+    border: 0;
+}
+
+form{
+    margin-top: 10%;
+    text-align: center;
+}
+
+body{
+    background-color: burlywood;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+form button{
+    margin-bottom: 30px;
+    width: 25%;
+    height:30px ;
+    border-radius: 15px;
+    border: 0;
+}
